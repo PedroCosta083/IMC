@@ -42,7 +42,7 @@ function getNivelImc() {
   if (resultadoIMC >= 34.9) return nivel[4];
   if (resultadoIMC >= 29.9) return nivel[3];
   if (resultadoIMC >= 24.9) return nivel[2];
-  if (resultadoIMC >= 1.9) return nivel[1];
+  if (resultadoIMC >= 18.9) return nivel[1];
   if (resultadoIMC < 18.5) return nivel[0];
 }
 
