@@ -6,7 +6,7 @@ form.addEventListener("submit", function (e) {
   setPeso();
   setAltura();
   validar();
-  imc();
+  getNivelImc();
 });
 
 function setPeso() {
